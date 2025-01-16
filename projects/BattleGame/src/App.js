@@ -4,7 +4,7 @@ import Monster from "./components/Monster";
 import Player from "./components/Player";
 import Shop from "./components/Shop";
 
-function BattleGame() {
+function App() {
 
     const [money, setMoney] = useState(100)
 
@@ -173,4 +173,4 @@ function BattleGame() {
     );
 }
 
-export default BattleGame;
+export default App;
